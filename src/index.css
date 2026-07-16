@@ -59,3 +59,30 @@ header > p {
   border-radius: 4px;
   padding: 5px 10px;
 }
+
+.word-display {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-block: 20px;
+  flex-wrap: nowrap;
+}
+
+.letter-box {
+  width: 40px;
+  height: 40px;
+  border-bottom: 2px solid #8e8e8e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  background-color: #323232;
+}
+
+.letter-box.correct {
+  border-bottom: #10a95b;
+}
+
+.letter-box.incorrect {
+  border-bottom: #e35151;
+}
